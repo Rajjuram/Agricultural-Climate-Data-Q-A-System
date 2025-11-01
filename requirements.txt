@@ -1,0 +1,28 @@
+# Project Samarth - RAG-based AI Q&A System
+# Python 3.8+
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# RAG & Vector Search
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+# For GPU support, use: faiss-gpu>=1.7.4
+
+# Google Gemini API
+google-generativeai>=0.3.0
+
+# Streamlit Web App
+streamlit>=1.28.0
+
+# Data Visualization
+plotly>=5.17.0
+
+# Utilities
+tqdm>=4.66.0
+pathlib
+
+# Optional: for better progress bars and utilities
+packaging>=23.0
+

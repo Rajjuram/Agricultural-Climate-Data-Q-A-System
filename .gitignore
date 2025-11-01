@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Project specific
+rag_files/*.jsonl
+rag_files/*.csv
+rag_store/
+*.pkl
+*.faiss
+
+# Data (keep structure, ignore large files if needed)
+# data/*.csv  # Uncomment if you don't want to track data files
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Outputs
+outputs/
+*.html
+
