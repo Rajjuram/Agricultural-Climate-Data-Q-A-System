@@ -48,3 +48,22 @@ notebooks/.ipynb_checkpoints/
 outputs/
 *.html
 
+# Frontend / API
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.next/
+frontend/.parcel-cache/
+frontend/.vite/
+frontend/yarn.lock
+frontend/package-lock.json
+
+api/node_modules/
+api/dist/
+api/build/
+api/.env
+api/.env.local
+api/.parcel-cache/
+
